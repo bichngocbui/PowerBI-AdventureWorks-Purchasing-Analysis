@@ -19,78 +19,10 @@ The analysis utilizes the AdventureWorks sample database:
 - Dynamic Filters: Set up dynamic filters to allow leadership to easily select suppliers, products, or time frames.
 - Calculations and Measures: Use DAX to create measures such as total cost, average order time, and optimal stock levels.
 ## Design Thinking Steps 
-### Stage 1: Empathy 
-#### 5W1H
-| **Question**                                              | **Answer**                                                                                                                                                                                                                                                                                                               |
-|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Who will view this Dashboard?**                         | The dashboard will be viewed by the company’s leadership team. They are strategic decision-makers who need an overview of the purchasing operations.                                                                                                                                                                      |
-| **If selecting one key stakeholder, who would it be?**    | The key stakeholder is the Chief Procurement Officer (CPO), who is directly responsible for the purchasing department's performance and needs the most comprehensive view of operations.                                                                                                                                    |
-| **What problem does this Dashboard solve?**               | This dashboard addresses the need for clear, visual information on the performance of the purchasing department. It helps leadership evaluate whether purchasing meets requirements for quantity, timing, and cost optimization.                                                                                           |
-| **Describe the problem in one sentence**                  | The dashboard needs to provide a comprehensive and detailed view of the purchasing department's performance, focusing on meeting quantity requirements, delivery timelines, and cost optimization, enabling timely and effective strategic decision-making by leadership.                                                    |
-| **When and where will stakeholders view this Dashboard?** | Leadership may view this dashboard in regular performance meetings or when they need to make strategic purchasing decisions. They can access it from their personal computers or view it on a large screen in a meeting room for group discussions.                                                                       |
-| **Why do stakeholders need this Dashboard?**              | Stakeholders need this dashboard because it allows them to: (1) Quickly understand the purchasing department's operations, (2) Assess supplier effectiveness, (3) Detect potential issues in the purchasing process, (4) Make timely decisions on purchasing strategy and supplier selection, (5) Monitor cost optimization efforts. |
-| **How have stakeholders previously achieved their goals?**| (1) Track and analyze key KPIs to identify areas for improvement, (2) Make swift decisions on suppliers and purchasing processes, (3) Optimize order strategy and supply chain management.                                                                                                                                    |
-#### Stakeholder Empathy Mapping
-| **Question**                                    | **Answer**                                                                                                                                                                                      |
-|-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Thinking and feeling** <br> *What does the stakeholder think and feel?* | 1. Concerned about ensuring a stable supply <br> 2. Under pressure to optimize purchasing costs <br> 3. Focused on quality and delivery timelines                                                |
-| **Seeing** <br> *What does the stakeholder see?*                          | 1. Price fluctuations in the market <br> 2. Supplier performance <br> 3. Trends in the supply chain                                                                                               |
-| **Saying and doing** <br> *What does the stakeholder say?*                | 1. Requests reports on purchasing performance <br> 2. Negotiates with suppliers <br> 3. May propose new purchasing strategies                                                                    |
-| **Pains** <br> *What are the biggest problems and challenges?*            | 1. Difficulty balancing cost and quality <br> 2. Risk of supply chain disruption <br> 3. Pressure from other departments on delivery timelines                                                   |
-| **Gains** <br> *What are the opportunities and benefits?*                 | 1. Improving cost efficiency in purchasing <br> 2. Strengthening relationships with strategic suppliers <br> 3. Contributing to company profits by optimizing purchasing practices               |
-#### Dataset 
-| **Table Number**                           | **Fact Table** | **Dim Table** |
-|--------------------------------------------|----------------|---------------|
-| **6**                                      | **2**         | **4**         |
+### Stage 1 - Empathy 
+![image](https://github.com/user-attachments/assets/393683de-feee-443c-a56c-c8655b58aece)
+### Stage 2 - Define 
 
-| **Table Name**                             | **Description**                                                 |
-|--------------------------------------------|------------------------------------------------------------------|
-| **Purchasing.PurchaseOrderHeader - Dim**   | General information about purchase orders.                       |
-| **Purchasing.PurchaseOrderDetail - Fact**  | Details of each product related to a specific purchase order.    |
-| **Purchasing.Vendor - Dim**                | Companies from which Adventure Works Cycles purchases parts or other goods. |
-| **Purchasing.ProductVendor - Fact**        | Mapping table linking vendors to the products they supply.       |
-| **Bridge - Product - Dim**                 | Contains ProductID information.                                  |
-| **Date - Dim**                             | Contains information on OrderDate (Min/Max).                     |
-### Stage 2
-#### Northstar metrics 
-| **NORTHSTAR 1**                               | **NORTHSTAR 2 **                  |
-|------------------------------------------------|----------------------------------------------|
-| **What VALUE do you want to measure?**        | **What VALUE do you want to measure?**      |
-| Vendor Performance                             | Cost Efficiency                              |
-|                                                |                                              |
-| **WHEN does the value DELIVERY SUCCESS?**     | **WHEN does the value DELIVERY SUCCESS?**   |
-| When Ontime Infull Rate (OTIF) reaches ≥ 95% (target may be adjusted based on business strategy) | When price and product quality are at a reasonable balance. |
-|                                                |                                              |
-| **Northstar Metric Name**                      | **Northstar Metric Name**                    |
-| Ontime Infull Rate (OTIF)                      | Price-Quality Rate                           |
-|                                                |                                              |
-| **WHY do you choose this metric?**            | **WHY do you choose this metric?**          |
-| OTIF is a composite index evaluating supplier performance, including timely delivery and adequate quantity. It directly reflects the ability to meet the company's production needs, helping to minimize supply chain disruption risks and ensuring production plans are met. | The Price-Quality Rate is an important cost-effectiveness measure that evaluates the balance between price and product quality. This metric helps the business determine whether the product prices align with the quality provided by suppliers, thereby optimizing purchasing costs without compromising quality. |
-#### Define Point of View
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">Dimension Data Group</th>
-    </tr>
-    <tr>
-      <th>Group 1</th>
-      <th>Group 2</th>
-      <th>Group 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>ActiveFlag</td>
-      <td>CreditRating</td>
-      <td>PreferredVendorStatus</td>
-    </tr>
-  </tbody>
-</table>
-
-| **View**               | **Description**                                               | **Why**                                                                                               |
-|------------------------|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Vendor Performance      | A summary of key performance indicators of suppliers, including on-time delivery and quantity delivered. | Provides an overview of each supplier's performance, aiding in the evaluation and decision-making regarding supplier selection and management. |
-| Cost Efficiency         | A summary of cost indicators and assessment of cost effectiveness. | Helps monitor the cost-effectiveness of purchasing activities, identify savings opportunities, and evaluate negotiation performance with suppliers. |
 #### Stage 3: Ideate 
 <table>
   <thead>
