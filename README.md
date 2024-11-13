@@ -18,9 +18,9 @@ The analysis is based on three main datasets:
 #### Now, become your users with empathy map and stakeholder journey 
 ![image](https://github.com/user-attachments/assets/7e5c87ae-1c57-44bc-81bb-2014e80b2635)
 ### Finally, see what we have with the Dataset
-![image](https://github.com/user-attachments/assets/62741761-42a6-433a-8e40-787a9f5cdd03)
+![image](https://github.com/user-attachments/assets/d3148981-7a02-4af7-9462-b3e04d91938c)
 ### Stage 2 - Define 
-
+![image](https://github.com/user-attachments/assets/dc9d712c-2667-4848-9d3e-53176eec88c6)
 #### Stage 3: Ideate 
 
 #### Stage 4: Prototype and Review
