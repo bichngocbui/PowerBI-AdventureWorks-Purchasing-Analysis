@@ -1,68 +1,27 @@
 # PowerBI-AdventureWorks-Purchassing-Analysis
 ## Project overview 
-This project presents a comprehensive Power BI dashboard analyzing the purchasing operations of AdventureWorks Cycles, a fictitious bicycle manufacturer. The dashboard is designed to provide executive leadership with actionable insights into procurement efficiency, supplier performance, and inventory management.
-## Bussiness context
-AdventureWorks Cycles requires efficient purchasing operations to maintain optimal inventory levels for manufacturing their bicycle products. The purchasing department faces several key challenges:
-- Ensuring adequate stock levels for production demands
-- Meeting delivery timelines
-- Optimizing procurement costs
-- Managing supplier relationships
-- Maintaining quality standards
+This project involves creating a comprehensive business intelligence dashboard for a global retail company called Superstore. The dashboard aims to provide senior management with actionable insights for market expansion strategies and strategic product selection.
 ## Dataset 
-The analysis utilizes the AdventureWorks sample database:
-- Dataset: AdventureWorks2019 (public Google BigQuery dataset)
-- Dataset dictionary: Available at https://drive.google.com/file/d/1oYm32cdutBwHhkds4l-HznDYPZ5_WCxu/view↩
-- Data schema: Available at  https://i0.wp.com/improveandrepeat.com/wp-content/uploads/2018/12/AdvWorksOLTPSchemaVisio.png?ssl=1↩
+The analysis is based on three main datasets:
+- Orders: Contains detailed transaction information from global sales
+- People: Stores information about sales representatives across different regions
+- Returns: Tracks returned transactions and related data
 ##  Technical Implementation
 - Power BI for Visualization: Design dashboards to display key insights visually, using charts, tables, and KPIs.
 - Data Processing: Use Power Query to clean and transform data, and structure a well-designed data model.
 - Dynamic Filters: Set up dynamic filters to allow leadership to easily select suppliers, products, or time frames.
-- Calculations and Measures: Use DAX to create measures such as total cost, average order time, and optimal stock levels.
+- Calculations and Measures: Use DAX to create measures such as profit, ROS.
 ## Design Thinking Steps 
 ### Stage 1 - Empathy 
-![image](https://github.com/user-attachments/assets/393683de-feee-443c-a56c-c8655b58aece)
+#### First, start with 5W1H
+![image](https://github.com/user-attachments/assets/b11df8c7-95d3-4993-a7c2-3651c6c11fea)
+#### Now, become your users with empathy map and stakeholder journey 
+![image](https://github.com/user-attachments/assets/7e5c87ae-1c57-44bc-81bb-2014e80b2635)
+### Finally, see what we have with the Dataset
+![image](https://github.com/user-attachments/assets/62741761-42a6-433a-8e40-787a9f5cdd03)
 ### Stage 2 - Define 
 
 #### Stage 3: Ideate 
-<table>
-  <thead>
-    <tr>
-      <th>Idea Name</th>
-      <th>Layer 0 Dimension: Overall Metrics</th>
-      <th>Layer 1 Dimension: Metrics Breakdown</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="4">Vendor Performance</td>
-      <td rowspan="4">OTIF Rate (Includes breakdowns)</td>
-      <td>OTIF Rate by ActiveFlag</td>
-    </tr>
-    <tr>
-      <td>OTIF Rate by CreditRating</td>
-    </tr>
-    <tr>
-      <td>OTIF Rate by PreferredVendorStatus</td>
-    </tr>
-    <tr>
-      <td>Related Metrics</td>
-    </tr>
-    <tr>
-      <td rowspan="4">Cost Efficiency</td>
-      <td rowspan="4">Price - Quality Rate (Includes breakdowns)</td>
-      <td>Price - Quality Rate by ActiveFlag</td>
-    </tr>
-    <tr>
-      <td>Price - Quality Rate by CreditRating</td>
-    </tr>
-    <tr>
-      <td>Price - Quality Rate by PreferredVendorStatus</td>
-    </tr>
-    <tr>
-      <td>Related Metrics</td>
-    </tr>
-  </tbody>
-</table>
 
 #### Stage 4: Prototype and Review
 Next, I proceeded with Step 4 - Prototype and Review multiple times and achieved the final result, which will be presented in the following section as a dashboard.
