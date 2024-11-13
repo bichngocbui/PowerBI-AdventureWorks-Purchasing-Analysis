@@ -21,13 +21,12 @@ The analysis is based on three main datasets:
 #### Stage 4 & 5: Prototype and Review
 ![image](https://github.com/user-attachments/assets/f2f91f6f-c577-44ff-a1fd-925f1e24a0ed)
 ## DashBoard 
-### View 1: Vendor Performance 
+### View 1: Overview 
 ![image](https://github.com/user-attachments/assets/9a88ebbe-4beb-4e7c-8a23-8664e528b377)
-### View 2: Cost Efficiency 
+### View 2: Top Profit 
 ![image](https://github.com/user-attachments/assets/fbbc45d0-61ed-4a98-86c5-c4c71d46b035)
 ## Insight & Recommendation
 
 ### Conclusion
-Improving cost efficiency and supplier performance requires a comprehensive approach, including renegotiating prices, optimizing costs, improving supply chain management, and collaborating closely with capable suppliers. Implementing these strategies will not only help the company save costs but also enhance operational efficiency and customer satisfaction.
 
 
