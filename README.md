@@ -3,13 +3,13 @@
 This project involves creating a comprehensive business intelligence dashboard for a global retail company called Superstore. The dashboard aims to provide senior management with actionable insights for market expansion strategies and strategic product selection.
 ## Bussiness Context 
 The company operates in a competitive global market, requiring strategic insight into regional performance and product success to maintain and expand its market position. With increasing demands for efficiency and profitability, senior management needs a clear, data-driven understanding of which markets and products drive the most value and where there may be operational challenges. 
+## Bussiness Value
+This project offers a clear view of global operations, helping senior management make informed decisions on market expansion and product optimization. The dashboard highlights key metrics on market and product profits, enabling leaders to identify strengths, address challenges, and make data-driven decisions to drive growth and efficiency.
 ## Dataset 
 The analysis is based on three main datasets:
 - Orders: Contains detailed transaction information from global sales
 - People: Stores information about sales representatives across different regions
 - Returns: Tracks returned transactions and related data
-## Bussiness Value
-This project offers a clear view of global operations, helping senior management make informed decisions on market expansion and product optimization. The dashboard highlights key metrics on market and product profits, enabling leaders to identify strengths, address challenges, and make data-driven decisions to drive growth and efficiency.
 ##  Technical Implementation
 - Power BI for Visualization: Design dashboards to display key insights visually, using charts, tables, and KPIs.
 - Data Processing: Use Power Query to clean and transform data, and structure a well-designed data model.
