@@ -7,7 +7,8 @@ The analysis is based on three main datasets:
 - People: Stores information about sales representatives across different regions
 - Returns: Tracks returned transactions and related data
 ## Bussiness Value
-The Global Superstore sales data provides a comprehensive view into the company's worldwide operations. By analyzing this data, the senior management team can gain important insights to inform strategic decisions around market expansion and product portfolio optimization. The goal is to identify opportunities to drive growth and improve efficiency.
+- This  project provides a comprehensive view into the company's worldwide operations. By analyzing this data, the senior management team can gain important insights to inform strategic decisions around market expansion and product portfolio optimization. The goal is to identify opportunities to drive growth and improve efficiency.
+- The dashboard you create should enable stakeholders to quickly visualize and explore key metrics related to profit of each market and product. This will empower the leadership team to identify areas of strength, uncover pain points, and make data-driven decisions to enhance the overall business performance.
 ##  Technical Implementation
 - Power BI for Visualization: Design dashboards to display key insights visually, using charts, tables, and KPIs.
 - Data Processing: Use Power Query to clean and transform data, and structure a well-designed data model.
