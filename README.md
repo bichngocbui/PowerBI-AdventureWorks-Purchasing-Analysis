@@ -1,6 +1,8 @@
 # PowerBI-Superstore-Sales-and-Expansion-strategy
 ## Project overview 
 This project involves creating a comprehensive business intelligence dashboard for a global retail company called Superstore. The dashboard aims to provide senior management with actionable insights for market expansion strategies and strategic product selection.
+## Bussiness Context 
+The company operates in a competitive global market, requiring strategic insight into regional performance and product success to maintain and expand its market position. With increasing demands for efficiency and profitability, senior management needs a clear, data-driven understanding of which markets and products drive the most value and where there may be operational challenges. 
 ## Dataset 
 The analysis is based on three main datasets:
 - Orders: Contains detailed transaction information from global sales
