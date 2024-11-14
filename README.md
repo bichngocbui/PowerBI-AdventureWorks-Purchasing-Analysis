@@ -43,5 +43,9 @@ The Consumer segment contributes the highest profit (52%), followed by Corporate
 - Sub-categories like Copiers and Phones are leading in profits, with Technology-related products (e.g., TEC-CO and OFF-AP series) among the most profitable items.
 ### Recommendation 
 ![image](https://github.com/user-attachments/assets/e09b52dc-5670-4c25-9d96-82a06337fd55)
+## Conclusion
+In conclusion, this project equips the senior management team with actionable insights into global operations, supporting data-driven decisions to enhance market reach, optimize product offerings, and boost overall business performance. The dashboard built provides a powerful tool for quickly identifying growth opportunities and addressing operational challenges, ultimately driving sustainable success.
+
+
 
 
