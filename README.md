@@ -11,7 +11,6 @@ This project offers a clear view of global operations, helping senior management
 ##  Technical Implementation
 - Power BI for Visualization: Design dashboards to display key insights visually, using charts, tables, and KPIs.
 - Data Processing: Use Power Query to clean and transform data, and structure a well-designed data model.
-- Dynamic Filters: Set up dynamic filters to allow leadership to easily select Market. 
 - Calculations and Measures: Use DAX to create measures such as profit, ROS.
 ## Design Thinking Steps 
 ### Stage 1 - Empathy 
