@@ -16,7 +16,7 @@ The analysis is based on three main datasets:
 - Calculations and Measures: Use DAX to create measures such as profit, ROS.
 ## Design Thinking Steps 
 ### Stage 1 - Empathy 
-![image](https://github.com/user-attachments/assets/ed129b96-886a-4f7c-9e19-cb763c0cc0e6)
+![image](https://github.com/user-attachments/assets/3668617f-b205-41fb-adc6-add411f18d25)
 ![image](https://github.com/user-attachments/assets/71ce8018-613b-432c-bb79-9a07596504fc)
 ![image](https://github.com/user-attachments/assets/5824d103-afda-4ad0-a0db-23efaeabea42)
 ### Stage 2 - Define 
