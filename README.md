@@ -16,13 +16,15 @@ The analysis is based on three main datasets:
 - Calculations and Measures: Use DAX to create measures such as profit, ROS.
 ## Design Thinking Steps 
 ### Stage 1 - Empathy 
-![image](https://github.com/user-attachments/assets/baf21a24-45a8-4f37-b3e5-d88c0b0d4c6a)
+![image](https://github.com/user-attachments/assets/8d02912d-3d66-473d-a2f1-524ffc4035ff)
+![image](https://github.com/user-attachments/assets/71ce8018-613b-432c-bb79-9a07596504fc)
+![image](https://github.com/user-attachments/assets/5824d103-afda-4ad0-a0db-23efaeabea42)
 ### Stage 2 - Define 
-![image](https://github.com/user-attachments/assets/af848c32-c9df-4b69-a283-ee0d642c72ca)
-#### Stage 3: Ideate 
-![image](https://github.com/user-attachments/assets/d800c2be-af83-4976-a1b4-8a8c0769560c)
-#### Stage 4 & 5: Prototype and Review
-![image](https://github.com/user-attachments/assets/f2f91f6f-c577-44ff-a1fd-925f1e24a0ed)
+![image](https://github.com/user-attachments/assets/0f2bfd19-6522-49ac-99cc-eeb7dc0b8220)
+#### Stage 3 - Ideate 
+![image](https://github.com/user-attachments/assets/fb01b2e9-99e8-4782-af0a-6868c14cdd7c)
+#### Stage 4 & 5 - Prototype and Review
+![image](https://github.com/user-attachments/assets/abab3b95-04ac-4097-baa8-80119057e2fa)
 ## DashBoard 
 ### View 1: Overview 
 ![image](https://github.com/user-attachments/assets/cd56946f-2796-4165-b9dd-664a4e71cd8b)
@@ -37,7 +39,8 @@ The analysis is based on three main datasets:
 - Sub-categories like Copiers and Phones are leading in profits, with Technology-related products (e.g., TEC-CO and OFF-AP series) among the most profitable items.
 - Here are some outlines strategic focuses for large and limited capital investments across different regions highlighting the key markets, product categories, sub-categories, target segments, and countries to prioritize in order to optimize investment outcomes.
   
-![image](https://github.com/user-attachments/assets/e09b52dc-5670-4c25-9d96-82a06337fd55)
+![image](https://github.com/user-attachments/assets/b45ad7d9-b9a7-4227-a2ff-2a345b337ca9)
+
 ## Conclusion
 In conclusion, this project equips the senior management team with actionable insights into global operations, supporting data-driven decisions to enhance market reach, optimize product offerings, and boost overall business performance. The dashboard built provides a powerful tool for quickly identifying growth opportunities and addressing operational challenges, ultimately driving sustainable success.
 
