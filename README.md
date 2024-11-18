@@ -26,24 +26,17 @@ The analysis is based on three main datasets:
 ## DashBoard 
 ### View 1: Overview 
 ![image](https://github.com/user-attachments/assets/cd56946f-2796-4165-b9dd-664a4e71cd8b)
+- __Sales and Profit Trends__: Both sales and profit have grown steadily over the years, with a noticeable increase in recent years. This shows an overall positive trend, potentially due to expanding markets or product demand.
+- __Market Analysis__ : The APAC region contributes the highest profit, followed by the EU and the US. These three regions account for a significant portion of overall profits, with APAC leading at 30%. EMEA, Canada, and Africa show lower profit contributions, indicating potential for improvement or that these markets are currently underutilized.
+-  __Category Analysis__ : Technology products are the largest profit contributor (61%), followed by Office Supplies (20%) and Furniture (19%). This suggests that technology products are highly profitable and may have a strong demand.
+-  __Segment Analysis__ : The Consumer segment contributes the highest profit (52%), followed by Corporate (30%) and Home Office (18%). This indicates that the Consumer segment is the primary market focus, which could guide future marketing and sales strategies.
 ### View 2: Top Profit 
 ![image](https://github.com/user-attachments/assets/3dfef527-9007-49f6-9025-f06c4c7a3474)
-## Insight & Recommendation
-### Insight 
-#### Sales and Profit Trends
-Both sales and profit have grown steadily over the years, with a noticeable increase in recent years. This shows an overall positive trend, potentially due to expanding markets or product demand.
-#### Market Analysis
-- The APAC region contributes the highest profit, followed by the EU and the US. These three regions account for a significant portion of overall profits, with APAC leading at 30%.
-- EMEA, Canada, and Africa show lower profit contributions, indicating potential for improvement or that these markets are currently underutilized.
-#### Category Analysis
-Technology products are the largest profit contributor (61%), followed by Office Supplies (20%) and Furniture (19%). This suggests that technology products are highly profitable and may have a strong demand.
-#### Segment Analysis
-The Consumer segment contributes the highest profit (52%), followed by Corporate (30%) and Home Office (18%). This indicates that the Consumer segment is the primary market focus, which could guide future marketing and sales strategies.
-#### Top Performing Regions, Countries, and Sub-Categories
 - Within regions, Central EU and North America stand out for high profitability.
 - The United States, China, and India are top-performing countries, contributing substantial profits.
 - Sub-categories like Copiers and Phones are leading in profits, with Technology-related products (e.g., TEC-CO and OFF-AP series) among the most profitable items.
-### Recommendation 
+- Here are some outlines strategic focuses for large and limited capital investments across different regions highlighting the key markets, product categories, sub-categories, target segments, and countries to prioritize in order to optimize investment outcomes.
+  
 ![image](https://github.com/user-attachments/assets/e09b52dc-5670-4c25-9d96-82a06337fd55)
 ## Conclusion
 In conclusion, this project equips the senior management team with actionable insights into global operations, supporting data-driven decisions to enhance market reach, optimize product offerings, and boost overall business performance. The dashboard built provides a powerful tool for quickly identifying growth opportunities and addressing operational challenges, ultimately driving sustainable success.
