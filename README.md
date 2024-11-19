@@ -1,4 +1,4 @@
-# PowerBI-Superstore-Sales-and-Expansion-strategy
+# Retail Analytics & Strategy Dashboard (Power BI)
 ## Project overview 
 This project involves creating a comprehensive business intelligence dashboard for a global retail company called Superstore. The dashboard aims to provide senior management with actionable insights for market expansion strategies and strategic product selection.
 ## Bussiness Context 
